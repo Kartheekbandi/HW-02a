@@ -1,12 +1,11 @@
 # -*- coding: utf-8 -*-
 """
 Created on Thu Jan 14 13:44:00 2016
-Updated Jan 21, 2018
+Updated Feb 7, 2023
 
 The primary goal of this file is to demonstrate a simple python program to classify triangles
 
-@author: jrr
-@author: rk
+@author: Kartheek Reddy Bandi
 """
 
 def classifyTriangle(a,b,c):
@@ -55,3 +54,13 @@ def classifyTriangle(a,b,c):
         return 'Isoceles'
     elif (a != b) and  (b != c) and (a != b):
         return 'Scalene'
+from datetime import datetime #Importing datetime command to get the time and date of code execution.
+def my_brand(assignment_name):
+    print("==== Name: Kartheek Reddy Bandi ====")
+    print("==== Course: 2023S-SSW567-WS ====")
+    print("==== " + "Assignment name:" + ass_name + " ====")
+    print("==== " + "Current_date & time : " +datetime.now().strftime("%m-%d-%y & %H:%M:%S")+ " ====")
+    
+    return 
+ass_name=input("Enter Assignment name: ")
+my_brand(ass_name)
