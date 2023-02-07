@@ -1,11 +1,11 @@
 # -*- coding: utf-8 -*-
 """
+HW 02a - Testing a legacy program and reporting on testing results
 Created on Thu Jan 14 13:44:00 2016
 Updated Feb 7, 2023
-
 The primary goal of this file is to demonstrate a simple python program to classify triangles
-
 @author: Kartheek Reddy Bandi
+Contact: kbandi1@stevens.edu
 """
 
 def classifyTriangle(a,b,c):
@@ -64,3 +64,7 @@ def my_brand(assignment_name):
     return 
 ass_name=input("Enter Assignment name: ")
 my_brand(ass_name)
+"""
+HONOR PLEDGE: I Have done this assignment on my own and haven't copied from others or internet.
+Considered my SSW-567 Hw_01 as reference and made changes accordingly.
+"""
