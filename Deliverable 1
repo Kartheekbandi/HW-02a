@@ -1,0 +1,5 @@
+Test ID:Test set against the initial buggy implementation of classifyTriangle in the origianl Triangle.py 
+Input:Considered severals test cases for equilateral,Scalene,Isoceles,Right,Invalid Triangle and NotATriangle.
+Expected Results: All test cased should pass and result the respective Triangle accordingly.
+Actual Results: Olny the test cases for equilateral triangle are passed as 'a=b' is true for them.
+Pass or Fail : 7 tests has failed and only 2 test cases are passed.
