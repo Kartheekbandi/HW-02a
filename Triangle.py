@@ -55,7 +55,7 @@ def classifyTriangle(a,b,c):
     elif (a != b) and  (b != c) and (a != b):
         return 'Scalene'
 from datetime import datetime #Importing datetime command to get the time and date of code execution.
-def my_brand(assignment_name):
+"""def my_brand(assignment_name):
     print("==== Name: Kartheek Reddy Bandi ====")
     print("==== Course: 2023S-SSW567-WS ====")
     print("==== " + "Assignment name:" + ass_name + " ====")
@@ -64,7 +64,6 @@ def my_brand(assignment_name):
     return 
 ass_name=input("Enter Assignment name: ")
 my_brand(ass_name)
-"""
 HONOR PLEDGE: I Have done this assignment on my own and haven't copied from others or internet.
 Considered my SSW-567 Hw_01 as reference and made changes accordingly.
 """
